@@ -2,10 +2,10 @@
 installer without docker for ubuntu &amp; debian -- for fast dev setup with wainwright casino plugins: https://gitlab.com/casinoman
 
 ## steps (important):
-- make sure to enter the domain as "APP_URL" in .env.casinodog before you do anything, as it's used for nginx setup etc.
-- you can enter latest wainwright git repositories within .env.casinodog
+- **!** make sure to enter your link as `APP_URL` in `.env.casinodog` before you do anything, as it's used for nginx setup etc.
+- you can link wainwright git repositories within `.env.casinodog` or try use default setting as is
 - place cert.crt & private.key for your domain within the root working folder
-- execute `sudo chmod a+x`, followed by ./installer.sh
+- execute `sudo chmod a+x`, followed by `./installer.sh`
 
 ## after install
 - `cd casinodog`
