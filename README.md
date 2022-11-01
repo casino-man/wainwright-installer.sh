@@ -7,7 +7,7 @@ installs nginx, sets it up, install php8.1, install redis-tools, links domain to
 - **!** make sure to enter your link as `APP_URL` in `.env.casinodog` before you do anything, as it's used for nginx setup etc.
 - **do not touch `nginx_boilerplate.conf` && `composer_template.json` - it will copy and symbolic link in working directory a new nginx config file with name of your domain: `${APP_URL}.conf`**
 - you can link wainwright git repositories within `.env.casinodog` or try use default setting as is
-- place cert.crt & private.key for your domain within the root working folder
+- place cert.crt & private.key for your domain within the working folder of this script
 - execute `sudo chmod a+x`, followed by `./installer.sh`
 
 ## after install
